@@ -69,6 +69,7 @@ body .device-header .device-header-wrapper {
 }
 
 body .device-header .device-header-wrapper .device-header-logo {
+  display: none;
   width: 30%;
   float: left;
   font-size: 25px;
@@ -186,6 +187,7 @@ body main #home-content .home-wrapper::after {
 }
 
 body main #home-content .home-wrapper #my-icon {
+  display: none;
   margin: 130px 0 80px 0;
   position: relative;
   z-index: 2;
@@ -197,6 +199,7 @@ body main #home-content .home-wrapper #my-icon {
 }
 
 body main #home-content .home-wrapper h1 {
+  display: none;
   font-family: 'arial narrow';
   letter-spacing: 13px;
   position: relative;
@@ -298,7 +301,7 @@ body main #works-content .works-wrapper .work:hover {
 
 body main #contact-content {
   background: #ffd79a;
-  height: 720px;
+  height: 730px;
   font-family: 'MS PGothic';
 }
 
