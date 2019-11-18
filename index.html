@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Maestin's Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="shortcut icon" href="Image/favicon.png">
+        <link rel="stylesheet" href="responsive.css">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="index-list">
+                <ul>
+                    <li><a class="scroll-link" href="#home-content">HOME</a></li>
+                    <li><a class="scroll-link" href="#about-content">ABOUT</a></li>
+                    <li><a class="scroll-link" href="#works-content">WORKS</a></li>
+                    <li><a class="scroll-link" href="#contact-content">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="contact-list">
+                <ul>
+                <li><a href="https://twitter.com/m_maestin" target="_blank"><span class="fab fa-twitter"></span></a></li>
+                <li><a href="mailto:maestin.58@gmail.com?Subject=お問い合わせ"><span class="far fa-envelope"></span></a></li>
+                </ul>
+            </div>
+        </header>
+        <div class ="device-header">
+            <div class="device-header-wrapper">
+            <div class="device-header-logo">
+                MAESTIN
+            </div>
+            <div class="device-header-list">
+                <ul>
+                        <li><a class="scroll-link" href="#home-content">HOME</a></li>
+                        <li><a class="scroll-link" href="#about-content">ABOUT</a></li>
+                        <li><a class="scroll-link" href="#works-content">WORKS</a></li>
+                        <li><a class="scroll-link" href="#contact-content">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="min-header-menu">
+                <span class="menu-bar fa fa-bars"></span>
+            </div>
+            <div class="pull-down-menu">
+                    <ul>
+                            <li><a class="scroll-link" href="#home-content">HOME</a></li>
+                            <li><a class="scroll-link" href="#about-content">ABOUT</a></li>
+                            <li><a class="scroll-link" href="#works-content">WORKS</a></li>
+                            <li><a class="scroll-link" href="#contact-content">CONTACT</a></li>
+                    </ul>
+            </div>
+        </div>
+        </div>
+        <main>
+            <section id="home-content">
+                <div class="home-wrapper">
+                    <img id="my-icon" src="Image/icon.jpg">
+                    <h1>MAESTIN</h1>
+                </div>
+            </section>
+            <section id="about-content">
+                <div class="about-wrapper">
+                    <h1 class="title">- ABOUT -</h1>
+                    <img class="my-image" src="Image/myImage.jpg">
+                    <div class="about-text">
+                        <h2>Maestin</h2>
+                        <p>こんにちは！このページをご覧いただきありがとうございます！<br>
+                        Maestin(まえすてぃん)といいます。<br>
+                        </p>
+                        <table>
+                            <tr>
+                                <th>年齢</th><td>：　</td><td>
+                                    <script>
+                                        var now=new Date();
+                                        var year=now.getFullYear();
+                                        var month=now.getMonth();
+                                        var day=now.getDate();
+                                        if(month>5||(month===5&&day>=8)){
+                                            document.write(year-1999);
+                                        }
+                                        else{
+                                            document.write((year-1999)-1);
+                                        }
+                                    </script>
+                                    </td>
+                            </tr>
+                            <tr>
+                                <th>誕生日</th><td>：　</td><td>1999/05/08</td>
+                            </tr>
+                            <tr>
+                                <th>在住</th><td>：　</td><td>奈良/日本</td>
+                            </tr>
+                            <tr>
+                                <th>趣味</th><td>：　</td><td>映画</td>
+                            </tr>
+                            <tr>
+                                <th>E-mail</th><td>：　</td><td><a href="mailto:maestin.58@gmail.com?Subject=お問い合わせ">maestin.58@gmail.com</a></td>
+                            </tr>
+                            <tr>
+                                <th>Twitter</th><td>：　</td><td><a href="https://twitter.com/m_maestin" target="_blank">@m_maestin</a></td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </section>
+            <section id="works-content">
+                <div class="works-wrapper">
+                    <h1 class="title">- WORKS -</h1>
+                    <div class="work" href="#">
+                        <img src="Image/portfolio.png">
+                        <p>ポートフォリオサイト</p>
+                    </div>
+                </div>
+            </section>
+            <section id="contact-content">
+                <div class="contact-wrapper">
+                    <h1 class="title">- CONTACT -</h1>
+                    <div class="contact-left">
+                        <table>
+                            <tr>
+                                <th>E-mail</th><td>：</td><td><a href="mailto:maestin.58@gmail.com?Subject=お問い合わせ">maestin.58@gmail.com</a></td>
+                            </tr>
+                            <tr>
+                                <th>Twitter</th><td>：</td><td><a href="https://twitter.com/m_maestin" target="_blank">@m_maestin</a></td>
+                            </tr>
+
+                        </table>
+                    </div>
+                    <div class="contact-right">
+                        <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeDfrgGMNIvqcHqZDPtX4w_od11Vtyw8IYTrgIzokW9jdecbQ/formResponse" 
+                            method="post" name="myForm">
+                            <input type="text" name="entry.274900473" autocomplete="name" placeholder="名前 (必須)" required>
+                            <input type="email" name="entry.1523048665" autocomplete="email" placeholder="メールアドレス (必須)" required>
+                            <input type="text" name="entry.1267957833" autocomplete="organization" placeholder="会社名・店名">
+                            <textarea name="entry.1791812556" placeholder="お問い合わせ内容 (必須)" required></textarea>
+                            <input type="submit" class="send-btn">
+                        </form>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="footer">
+                        ©︎ Maestin 2019
+                        <script>
+                            var now=new Date();
+                            var year=now.getFullYear();
+                            if(year>2019){
+                                document.write(`- ${year}`);
+                            }
+                        </script>
+                    </div>
+            </section>
+        </main>
+        <script src="jQuery.js"></script>
+    </body>
+</html>
