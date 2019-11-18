@@ -1,0 +1,210 @@
+@media (min-width: 1436px) {
+  .device-header {
+    display: none;
+  }
+  .device-header .device-header-wrapper .min-header-menu .menu-bar {
+    display: none;
+  }
+  main {
+    margin-left: 20%;
+    width: 80%;
+  }
+  main #about-content {
+    height: 750px;
+  }
+  main #about-content .my-image {
+    width: 40%;
+    margin: 90px 30px 0 30px;
+  }
+  main #about-content .about-text {
+    width: 45%;
+    margin: 60px 30px;
+  }
+  main #works-content {
+    min-height: 750px;
+  }
+  main #works-content .works-wrapper .work {
+    width: 580px;
+  }
+  main #works-content .works-wrapper .work img {
+    width: 530px;
+  }
+  main #contact-content .contact-wrapper .contact-left {
+    padding-left: 60px;
+    padding-top: 300px;
+  }
+  main #contact-content .contact-wrapper .contact-right {
+    margin: 100px 100px 0 0;
+  }
+  main #contact-content .footer {
+    margin-top: 80px;
+  }
+  .title {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 1435px) {
+  .device-header {
+    display: none;
+  }
+  .device-header .device-header-wrapper .min-header-menu .menu-bar {
+    display: none;
+  }
+  main {
+    margin-left: 20%;
+    width: 80%;
+  }
+  main #about-content {
+    height: 750px;
+  }
+  main #about-content .my-image {
+    width: 40%;
+    margin: 90px 30px 0 30px;
+  }
+  main #about-content .about-text {
+    width: 45%;
+    margin: 60px 30px;
+  }
+  main #works-content {
+    min-height: 750px;
+  }
+  main #works-content .works-wrapper .work {
+    width: 580px;
+  }
+  main #works-content .works-wrapper .work img {
+    width: 530px;
+  }
+  main #contact-content .contact-wrapper .contact-left {
+    padding-left: 60px;
+    padding-top: 300px;
+  }
+  main #contact-content .contact-wrapper .contact-right {
+    margin: 100px 100px 0 0;
+  }
+  main #contact-content .footer {
+    margin-top: 80px;
+  }
+  .title {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .device-header {
+    display: none;
+  }
+  .device-header .device-header-wrapper .min-header-menu .menu-bar {
+    display: none;
+  }
+  main #about-content {
+    height: 1100px;
+  }
+  main #about-content .my-image {
+    clear: both;
+    margin: 30px 15%;
+    width: 70%;
+  }
+  main #about-content .about-text {
+    width: 70%;
+    margin: 30px 18%;
+  }
+  main #about-content .about-text h2 {
+    text-align: center;
+  }
+  main #works-content {
+    min-height: 1100px;
+  }
+  main #works-content .works-wrapper .work {
+    width: 580px;
+  }
+  main #works-content .works-wrapper .work img {
+    width: 530px;
+  }
+  main #contact-content .contact-wrapper .contact-left {
+    padding-left: 60px;
+    padding-top: 300px;
+  }
+  main #contact-content .contact-wrapper .contact-right {
+    margin: 100px 100px 0 0;
+  }
+  main #contact-content .contact-wrapper .footer {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 900px) {
+  header {
+    display: none;
+    width: 0;
+  }
+  .device-header {
+    display: block;
+  }
+  .device-header .device-header-wrapper .min-header-menu .menu-bar {
+    display: none;
+  }
+  main {
+    width: 100%;
+    margin-left: 0;
+  }
+  main #about-content {
+    height: 1100px;
+  }
+  main #about-content .my-image {
+    clear: both;
+    margin: 30px 15%;
+    width: 70%;
+  }
+  main #works-content {
+    min-height: 1100px;
+  }
+  main #works-content .works-wrapper .work {
+    width: 580px;
+  }
+  main #works-content .works-wrapper .work img {
+    width: 530px;
+  }
+  main #contact-content .contact-wrapper .contact-left {
+    clear: both;
+    padding-left: 40%;
+    padding-top: 40px;
+  }
+  main #contact-content .contact-wrapper .contact-right {
+    clear: both;
+    margin: 10px 25% 0 0;
+    padding-bottom: 0;
+  }
+  main #contact-content .footer {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .device-header .device-header-wrapper .device-header-list {
+    display: none;
+  }
+  .device-header .device-header-wrapper .min-header-menu .menu-bar {
+    display: block;
+  }
+  main #about-content {
+    height: 950px;
+  }
+  main #works-content .works-wrapper .work {
+    width: 90%;
+  }
+  main #works-content .works-wrapper .work img {
+    width: 90%;
+  }
+  main #contact-content .contact-wrapper .contact-left {
+    padding-left: 30%;
+    padding-top: 40px;
+  }
+  main #contact-content .contact-wrapper .contact-right {
+    margin: 10px 30% 0 0;
+  }
+  .title {
+    font-size: 50px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
