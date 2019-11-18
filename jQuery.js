@@ -5,6 +5,9 @@ $(function(){
     for (let i = 0; i < $('.contact-list').find('li').length; i++) {
         $('.contact-list').find('li').eq(i).fadeIn(2500);
     }
+    $('.device-header-logo').fadeIn('slow');
+    $('#my-icon').fadeIn(1500);
+    $('#home-name').fadeIn(3000);
     $('.scroll-link').click(function(){
         var id=$(this).attr('href');
         var position=$(id).offset().top;
