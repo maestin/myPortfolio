@@ -1,0 +1,406 @@
+* {
+  width: 100%;
+  margin: 0;
+}
+
+body header {
+  position: fixed;
+  padding-top: 320px;
+  background: #1c0083;
+  height: 100%;
+  width: 20%;
+}
+
+body header .index-list li {
+  list-style: none;
+  margin-bottom: 30px;
+  display: none;
+}
+
+body header .index-list li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'arial narrow';
+  letter-spacing: 3px;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+body header .index-list li a:hover {
+  color: #ff8a8a;
+}
+
+body header .contact-list {
+  position: absolute;
+  bottom: 350px;
+}
+
+body header .contact-list ul li {
+  float: left;
+  list-style: none;
+  width: 9px;
+  margin-right: 35px;
+  display: none;
+}
+
+body header .contact-list ul li a {
+  font-size: 23px;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+body header .contact-list ul li a:hover {
+  color: #8cf3fa;
+}
+
+body .device-header {
+  height: 35px;
+  background: rgba(136, 136, 136, 0.8);
+  position: fixed;
+  z-index: 1000;
+}
+
+body .device-header .device-header-wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+
+body .device-header .device-header-wrapper .device-header-logo {
+  width: 30%;
+  float: left;
+  font-size: 25px;
+}
+
+body .device-header .device-header-wrapper .device-header-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  width: 62.6%;
+}
+
+body .device-header .device-header-wrapper .device-header-list ul li {
+  width: 25%;
+  text-align: center;
+}
+
+body .device-header .device-header-wrapper .device-header-list ul li a {
+  line-height: 35px;
+  display: block;
+  text-decoration: none;
+  color: black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+body .device-header .device-header-wrapper .device-header-list ul li a:hover {
+  color: #444444;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+body .device-header .device-header-wrapper .device-header-list ul li a:active {
+  color: #777777;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+body .device-header .device-header-wrapper .min-header-menu .menu-bar {
+  float: right;
+  text-align: center;
+  width: 30px;
+  font-size: 25px;
+  line-height: 35px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+body .device-header .device-header-wrapper .min-header-menu .menu-bar:hover {
+  color: #444444;
+}
+
+body .device-header .device-header-wrapper .min-header-menu .menu-bar:active {
+  color: #c7c7c7;
+}
+
+body .device-header .device-header-wrapper .pull-down-menu {
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: 69%;
+  width: 25%;
+  font-size: 20px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+body .device-header .device-header-wrapper .pull-down-menu ul {
+  padding: 0;
+}
+
+body .device-header .device-header-wrapper .pull-down-menu ul li {
+  padding-right: 10px;
+  list-style: none;
+  border: 1px solid rgba(58, 58, 58, 0.7);
+  background: rgba(34, 34, 34, 0.8);
+}
+
+body .device-header .device-header-wrapper .pull-down-menu ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+body .device-header .device-header-wrapper .pull-down-menu ul li a:hover {
+  color: #a1a1a1;
+}
+
+body .device-header .device-header-wrapper .pull-down-menu ul li a:active {
+  color: #575757;
+}
+
+body main #home-content .home-wrapper {
+  text-align: center;
+  background-image: url("Image/top.jpg");
+  background-size: cover;
+  height: 730px;
+  position: relative;
+  width: 100%;
+}
+
+body main #home-content .home-wrapper::after {
+  content: '';
+  background-color: rgba(10, 15, 80, 0.7);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+body main #home-content .home-wrapper #my-icon {
+  margin: 130px 0 80px 0;
+  position: relative;
+  z-index: 2;
+  width: 200px;
+  border-radius: 100%;
+  border: 3px solid #af3a3a;
+  -webkit-box-shadow: 0 0 10px #ffffff,0 0 10px #ffffff;
+          box-shadow: 0 0 10px #ffffff,0 0 10px #ffffff;
+}
+
+body main #home-content .home-wrapper h1 {
+  font-family: 'arial narrow';
+  letter-spacing: 13px;
+  position: relative;
+  z-index: 2;
+  font-size: 50px;
+  text-shadow: 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px white;
+}
+
+body main #about-content {
+  background: #dadada;
+  font-family: 'MS PGothic';
+}
+
+body main #about-content .about-wrapper {
+  padding-top: 75px;
+}
+
+body main #about-content .about-wrapper .my-image {
+  float: left;
+  border-radius: 10px;
+  -webkit-box-shadow: 13px 13px 10px gray;
+          box-shadow: 13px 13px 10px gray;
+  -webkit-transform: rotate(-4deg);
+          transform: rotate(-4deg);
+}
+
+body main #about-content .about-wrapper .about-text {
+  float: right;
+}
+
+body main #about-content .about-wrapper .about-text h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+body main #about-content .about-wrapper .about-text p {
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+body main #about-content .about-wrapper .about-text table {
+  width: 50%;
+  margin: 0 auto;
+}
+
+body main #about-content .about-wrapper .about-text table th {
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+body main #about-content .about-wrapper .about-text table td {
+  padding-bottom: 15px;
+}
+
+body main #about-content .about-wrapper .about-text table td a {
+  color: black;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+body main #about-content .about-wrapper .about-text table td a:hover {
+  color: #999999;
+}
+
+body main #works-content {
+  background: #c4d2e2;
+  font-family: 'MS PGothic';
+  padding-bottom: 50px;
+}
+
+body main #works-content .works-wrapper {
+  padding-top: 75px;
+}
+
+body main #works-content .works-wrapper .work {
+  border: 1px solid white;
+  border-radius: 8px;
+  text-align: center;
+  margin: 50px auto;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+body main #works-content .works-wrapper .work img {
+  margin: 30px 0 20px 0;
+}
+
+body main #works-content .works-wrapper .work p {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+body main #works-content .works-wrapper .work:hover {
+  background: #a9b6c5;
+  border: 1px solid #e4e4e4;
+  cursor: pointer;
+}
+
+body main #contact-content {
+  background: #ffd79a;
+  height: 720px;
+  font-family: 'MS PGothic';
+}
+
+body main #contact-content .contact-wrapper {
+  padding-top: 75px;
+}
+
+body main #contact-content .contact-wrapper .contact-left {
+  width: 30%;
+  float: left;
+}
+
+body main #contact-content .contact-wrapper .contact-left table {
+  width: 50%;
+  margin: 0;
+}
+
+body main #contact-content .contact-wrapper .contact-left table th {
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+body main #contact-content .contact-wrapper .contact-left table td {
+  padding-bottom: 15px;
+}
+
+body main #contact-content .contact-wrapper .contact-left table td a {
+  color: black;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+body main #contact-content .contact-wrapper .contact-left table td a:hover {
+  color: #999999;
+}
+
+body main #contact-content .contact-wrapper .contact-right {
+  float: right;
+  width: 40%;
+  text-align: center;
+}
+
+body main #contact-content .contact-wrapper .contact-right input, body main #contact-content .contact-wrapper .contact-right textarea {
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #5c5c5c;
+  background: none;
+  margin-bottom: 30px;
+}
+
+body main #contact-content .contact-wrapper .contact-right input:focus, body main #contact-content .contact-wrapper .contact-right textarea:focus {
+  outline: 0;
+}
+
+body main #contact-content .contact-wrapper .contact-right textarea {
+  resize: none;
+  height: 50px;
+}
+
+body main #contact-content .contact-wrapper .contact-right .send-btn {
+  margin: 0 auto;
+  -webkit-box-shadow: 0 7px 0 #272727;
+          box-shadow: 0 7px 0 #272727;
+  width: 30%;
+  border: 1px solid;
+  background: #f0f0f0;
+}
+
+body main #contact-content .contact-wrapper .contact-right .send-btn:hover {
+  position: relative;
+  top: 1px;
+  -webkit-box-shadow: 0 6px 0 #272727;
+          box-shadow: 0 6px 0 #272727;
+  cursor: pointer;
+}
+
+body main #contact-content .contact-wrapper .contact-right .send-btn:active {
+  position: relative;
+  top: 7px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body main #contact-content .footer {
+  font-size: 17px;
+  width: 100%;
+  text-align: center;
+  color: #6d6d6d;
+  letter-spacing: 2px;
+}
+
+.title {
+  font-family: 'arial narrow';
+  font-weight: normal;
+  letter-spacing: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+/*# sourceMappingURL=style.css.map */
